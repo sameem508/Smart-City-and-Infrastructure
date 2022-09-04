@@ -1,0 +1,424 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  
+  header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.15));
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .videobg2{
+    width: 100px;
+    height: 1000px;
+    object-fit: cover;
+    position:fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  nav {
+
+    width: 100%;
+    height: 10vh;
+    background: rgba(161, 157, 160, 0.825);
+    box-shadow: 2px 2px 20px white;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  span.l{
+  color:#ff0063;
+  }
+  
+  nav .logo {
+    width: 25%;
+    text-align: center;
+    
+  }
+  
+  nav .menu {
+    color: black;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav .menu a {
+    color: #fff;
+    text-decoration: none;
+
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 8px;
+  }
+  
+  nav .menu  a:first-child, a:hover {
+    color: #ff0063;
+  }
+  nav .menu a:hover {
+    color: #ff0063;
+  }
+  
+  main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .hcontent h3 {
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+    
+  }
+  
+  .hcontent h1 {
+    margin: 30px 0 20px 0;
+    font-size: 40px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+  }
+  
+  .hcontent p {
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+  }
+  
+  .hcontent a {
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.5s ease;
+  }
+  
+  .hcontent .btnone {
+    background: #fff;
+    color: #ff0063;
+    border: 2px solid #ff0063;
+  transition: 0.1s ease;
+  }
+  
+  .btnone:hover {
+    background: #ff0063;
+    color: white;
+  }
+  
+  .hcontent .btntwo {
+    background: #ff0063;
+    color: white;
+    border: 2px solid #fff;
+  transition: 0.1s ease;
+  }
+  
+  .btntwo:hover {
+    background: #fff;
+    
+    color: #ff0063;
+  }
+  
+  .change_content:after {
+    content: "";
+    animation: changetext 10s infinite linear;
+    color: #ff0063;
+  }
+  
+  @keyframes changetext {
+    0% {
+      content: "Shopping Malls";
+    }
+    20% {
+      content: "Luxury Hotels";
+    }
+    35% {
+      content: "Restaurants";
+    }
+    60% {
+      content: "Amusement Parks";
+    }
+    80% {
+      content: "Resorts & palaces";
+    }
+    100% {
+      content: "";
+    }
+  }
+
+
+
+
+  
+.main{
+  width:100%;
+  Height:auto;
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  background-size: cover;
+  }
+
+  .main h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    color:black;
+    padding: 20px;
+    
+  }
+  
+  .places .card{
+    background:rgb(236, 216, 216);
+       width: 29%;
+       display: inline-block;
+       box-shadow: 2px 2px 20px rgb(36, 35, 35);
+       border-radius: 5px; 
+       margin:2%;
+      }
+      .places .card:hover{
+        background-color: #ff00626c;
+      }
+  .places .image img{
+    width: 100%;
+    height: 250px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+
+  .places .title{
+   
+    text-align: center;
+    padding: 10px;
+    
+   }
+  
+  .places h1{
+    font-size: 20px;
+   }
+  
+  .des{
+    padding: 3px;
+    text-align: center;
+   
+    padding-top: 10px;
+          border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  .places button{
+    margin-top: 40px;
+    padding: 8px 60px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  .places button:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+.about{
+  width: 100%;
+  height: 100vh;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(img/1.jpg);
+  background-size: cover;
+}
+  .services h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    padding:20px;
+  }
+  .cen{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+  }
+  .service{
+    background-color: rgba(255, 255, 255, 0.514);
+    display: inline-block;
+    width: calc(95% / 3);
+    height: 250px;
+    margin: 4px 5px;
+    padding: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  .service:hover{
+    background: #ff00626c;
+    color: #fff;
+  }
+
+  .service h2{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0;
+  }
+  .service p{
+    color: rgba(57, 51, 51, 0.875);
+    font-size: 15px;
+    font-weight: 500;
+    height: 100%;
+    width: 100%;
+    position: relative; top: 30%;
+  }
+  .service p:hover{
+    color: #fff;
+  }
+  @media screen and (max-width: 800px) {
+    .service{
+      width: 50%;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .service{
+      width: 100%;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  .formarea{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(img/FormBg.png);
+    background-size: cover;
+  }
+  .formarea h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    color:white;
+    padding:20px;
+  }
+  .form{
+   padding: 15px;
+    border: 1px solid black;
+    width: 340px;
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.35);
+    border-radius: 15px;
+    position: relative;
+    top: 10%;
+    left: 40%;
+  }
+  form span{
+    color: rgb(242, 155, 155);
+  }
+    
+.para{
+    text-align:center;
+font-size: 25px;
+color: #fff;
+padding: 10px 0;
+  }
+  
+   
+
+  .chnging:after {
+    content: "";
+    animation: chngtext 5s infinite linear;
+    color: #fff;
+  }
+  
+  @keyframes chngtext {
+    0% {
+      content: "GET IN TOUCH";
+    }
+    50% {
+      content: "QUESTION";
+    }
+    100% {
+      content: "SUGGESTION";
+    }
+  }
+  
+  input[type=text],
+input[type=email]{
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+}
+input[type=text]:hover,
+input[type=email]:hover{
+  border: 1px solid #ff0063 ;
+}
+textarea{
+    border: none;
+    width: 95%;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    border-radius:10px ;
+}
+input[type=submit]{
+    width: 50%;
+    padding: 10px;
+    margin: 10px 78px;
+    border: 2px solid #ff0063;
+    border-radius: 15px;
+}
+input[type=submit]:hover{
+    background-color: #ff00628a;
+    color: #fff;
+}
+.footer{
+    width: 100%;
+    height: 15vh;
+    background-color: #ff006293;
+    color:black;
+}
+footer p{
+text-align: center;
+font-size: 18px;
+color: #fff;
+position:relative;
+top: 37%;
+}
